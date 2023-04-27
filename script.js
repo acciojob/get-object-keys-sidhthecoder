@@ -5,7 +5,7 @@ const student = {
 };
 
 // Add a getKeys() method to the Object prototype
-getkeys(){
+Object.prototype.getKeys = function() {
   return Object.keys(this);
 };
 
